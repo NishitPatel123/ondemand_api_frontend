@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const BASE = "https://ondemand-api-backend-m1v5.onrender.com/session";
+const BASE = "https://ondemand-api-backend-m1v5.onrender.com";
 
 // Attach JWT token from cookie to every request automatically
 // NOTE: Do NOT set Content-Type here — axios must auto-set it for FormData

@@ -42,7 +42,7 @@ export default function Home({ isAuthenticated, setIsAuthenticated }) {
         setServices((svcRes.data.data || []).slice(0, 8));
         setFeedbacks((fbRes.data.data || []).slice(0, 3));
       } catch (e) {
-        console.error(e);
+        // console.error(e);
       } finally {
         setLoading(false);
       }
