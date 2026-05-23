@@ -14,7 +14,7 @@ export default function ServiceDetail({ isAuthenticated, setIsAuthenticated }) {
   const [bookingDatetime, setBookingDatetime] = useState("");
   const [address, setAddress] = useState("");
   const [booking, setBooking] = useState(false);
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://ondemand-api-backend-m1v5.onrender.com";
 
   useEffect(() => {
     const fetchAll = async () => {

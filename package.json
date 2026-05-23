@@ -40,6 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8000",
+  "proxy": "https://ondemand-api-backend-m1v5.onrender.com",
   "main": "src/index.jsx"
 }

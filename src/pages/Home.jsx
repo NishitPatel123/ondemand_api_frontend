@@ -56,7 +56,7 @@ export default function Home({ isAuthenticated, setIsAuthenticated }) {
     return () => clearInterval(timer);
   }, []);
 
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://ondemand-api-backend-m1v5.onrender.com";
 
   return (
     <>

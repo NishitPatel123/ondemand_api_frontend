@@ -25,7 +25,7 @@ export default function MyBookings({ isAuthenticated, setIsAuthenticated }) {
   const [rescheduleModal, setRescheduleModal] = useState(null);
   const [rescheduleData, setRescheduleData] = useState("");
   const [rescheduling, setRescheduling] = useState(false);
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://ondemand-api-backend-m1v5.onrender.com";
 
   const fetchBookings = async () => {
     try {

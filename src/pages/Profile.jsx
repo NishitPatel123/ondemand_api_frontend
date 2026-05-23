@@ -13,7 +13,7 @@ export default function Profile({ isAuthenticated, setIsAuthenticated }) {
   const [form, setForm] = useState({ name: "", phone: "", address: "" });
   const [imageFile, setImageFile] = useState(null);
   const [preview, setPreview] = useState(null);
-  const BACKEND = "http://localhost:8000";
+  const BACKEND = "https://ondemand-api-backend-m1v5.onrender.com";
 
   const fetchProfile = async () => {
     try {
