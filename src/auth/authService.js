@@ -6,7 +6,7 @@ const checkSession = async () => {
     const token = Cookies.get("token");
     if (!token) return { isAuth: false, session: null };
 
-    const result = await axios.get("http://localhost:8000/session", {
+    const result = await axios.get("https://ondemand-api-backend-m1v5.onrender.com", {
       headers: { Authorization: `Bearer ${token}` },
     });
     const userData = result.data.userData;
